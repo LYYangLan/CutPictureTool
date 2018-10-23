@@ -1,0 +1,9 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/.vs/CutPictureTool/v15/ipch
+/.vs/CutPictureTool/v15
+/CutPictureTool/Debug
+/CutPictureTool/x64/Debug/CutPictureTool.tlog
+/CutPictureTool/x64/Debug
