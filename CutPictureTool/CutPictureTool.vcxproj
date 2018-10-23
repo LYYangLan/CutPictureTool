@@ -81,8 +81,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>D:\OpenCV\opencv3.4.1\build\include\opencv2;D:\OpenCV\opencv3.4.1\build\include\opencv;D:\OpenCV\opencv3.4.1\build\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\OpenCV\opencv3.4.1\build\x64\vc15\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\OpenCV\opencv3.4.1-static\install\include\opencv2;D:\OpenCV\opencv3.4.1-static\install\include\opencv;D:\OpenCV\opencv3.4.1-static\install\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\OpenCV\opencv3.4.1-static\install\x64\vc15\staticlib\Debug;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
