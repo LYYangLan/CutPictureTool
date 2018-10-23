@@ -199,6 +199,7 @@
   <ItemGroup>
     <ClInclude Include="CutPictureTool.h" />
     <ClInclude Include="CutPictureToolDlg.h" />
+    <ClInclude Include="Instruction.h" />
     <ClInclude Include="Multiply.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="showTime.h" />
@@ -210,6 +211,7 @@
   <ItemGroup>
     <ClCompile Include="CutPictureTool.cpp" />
     <ClCompile Include="CutPictureToolDlg.cpp" />
+    <ClCompile Include="Instruction.cpp" />
     <ClCompile Include="Multiply.cpp" />
     <ClCompile Include="showTime.cpp" />
     <ClCompile Include="Single.cpp" />
@@ -229,6 +231,9 @@
     <None Include="res\CutPictureTool.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\指南1.bmp" />
+    <Image Include="..\指南2.bmp" />
+    <Image Include="..\指南3.bmp" />
     <Image Include="res\CutPictureTool.ico" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
