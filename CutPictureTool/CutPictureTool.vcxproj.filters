@@ -45,6 +45,12 @@
     <ClInclude Include="Instruction.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="Suffix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="CutPictureTool.cpp">
@@ -71,6 +77,12 @@
     <ClCompile Include="Instruction.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="Suffix.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="CutPictureTool.rc">
@@ -94,6 +106,18 @@
       <Filter>资源文件</Filter>
     </Image>
     <Image Include="..\指南3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Instruction\指南1.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Instruction\指南2.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Instruction\指南3.bmp">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="..\Instruction\指南4.bmp">
       <Filter>资源文件</Filter>
     </Image>
   </ItemGroup>
